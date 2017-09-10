@@ -99,4 +99,4 @@ test1['same_roomtag_5_lastord'] = (test1['roomtag_5']
 test1['same_roomtag_6_lastord'] = (test1['roomtag_6']
                                    == test1['roomtag_6_lastord'])
 test1['same_star_lastord'] = (test1['star'] == test1['star_lastord'])
-test1.to_csv('/home/hyf/Desktop/数据集&数据说明/competition_test_new.csv')
+test1.to_csv('../output/competition_test_new.csv')
